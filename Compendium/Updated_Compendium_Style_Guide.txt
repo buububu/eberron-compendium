@@ -1,0 +1,59 @@
+
+Eberron Compendium - Updated Style Guide
+
+General Formatting Guidelines:
+- Use **Cinzel** for all major headings (class name, spell name).
+- Use **EB Garamond** for body text, descriptions, and spell details.
+- Maintain consistent margins and padding across tables and lists.
+- All profiles should be **hyperlinked** for easy navigation to related spells, classes, and subclasses.
+
+---
+
+### Character Profiles:
+- **Format:** Appearance → Combat → Faith & Affiliations → Backstory
+- **Image:** Full portrait (1024x1536), floated right
+- **Includes:** stats, weapon image, weapon stats, gear list, focused skills, subclass, religion, origin (all linked)
+
+### Race/Subrace Profiles:
+- **Format:** Overview → Appearance → Culture and Society → Major Settlements → Gameplay Traits
+- **Includes links to locations, factions, etc.**
+- **Portrait:** Floated right (400px wide)
+
+### Class Profiles:
+- **Format:** Overview → Appearance and Equipment → Training → Culture and Role in Eberron → Affiliations → Subclasses → Spell List (if applicable) → Gameplay Traits → Notable Characters
+- **Symbol badge:** Next to class title (256x256px, top-right)
+- **Spell List:** For spellcasting classes, links to class spells, with sourcebook info
+
+### Subclass Profiles:
+- **Format:** Overview → Features by level → Role in Eberron
+- **Icon:** Symbol, similar to class icon
+- **Available Spells:** List of subclass spells (linked)
+
+### Spell Profiles:
+- **Format:** Name → Level/School → Casting Time → Range → Components → Duration → Description → Classes
+- **Roleplay Manifestation:** Details of how the spell could manifest in Eberron
+- **Upcasting:** Include upcasting mechanics where applicable
+- **Class/Subclass:** Indicate all classes or subclasses that grant access to the spell
+
+### Location Profiles:
+- **Format:** Name → Description → Terrain/Climate → Key NPCs → Landmarks
+- **Image:** Portrait representing the area
+
+### Faction Profiles:
+- **Format:** Name → Description → Philosophy → Structure → Key Figures
+- **Image:** Faction emblem or portrait if available
+
+### Religion Profiles:
+- **Format:** Name → Domain → Tenets → Worshippers → Symbol → Temples
+- **Image:** Religious iconography
+
+---
+
+### Consistent Design Elements:
+- **Backlinks:** Every spell list and subclass profile should link back to their respective master page (e.g., Spell List → Class page).
+- **Hover Text:** Used for additional details like school of magic, casting time, etc.
+- **Sourcebook Tags:** Indicate spell origins (PHB, XG, TH, etc.) where relevant.
+
+---
+
+**Reminder:** Ensure that all class, spell, and subclass links correctly point to the `spellprofiles` or `subclasses` directories. The structure is essential for maintaining smooth navigation across the compendium.

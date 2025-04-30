@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=EB+Garamond:wght@400;600&display=swap');
+
+body {
+    font-family: 'EB Garamond', serif;
+    background-image: url('../images/backgrounds/parchment.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #2b1a0f;
+}
+
+.content {
+    background: rgba(255, 250, 235, 0.95);
+    max-width: 1600px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+    overflow: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Cinzel', serif;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin-bottom: 0.3em;
+    text-align: left;
+}
+
+h2 {
+    font-size: 2.7em;
+    margin-top: 0;
+    color: #5b3a29;
+    margin-bottom: 0.6em;
+    text-align: left;
+}
+
+h3 {
+    font-size: 2.4em;
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+}
+
+.portrait-frame {
+    float: right;
+    width: 1024px;
+    height: 1536px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.portrait-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+section {
+    margin-bottom: 0.8em;
+    overflow: hidden;
+}
+
+p {
+    font-size: 22px;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+    line-height: 1.25;
+}
+
+a {
+    color: #5b3a29;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 1em;
+}
+.stats-grid div {
+    background: rgba(220, 210, 190, 0.7);
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 20px;
+}
