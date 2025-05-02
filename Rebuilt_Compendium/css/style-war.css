@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Spectral&display=swap');
+
+body.era-war {
+  font-family: 'Spectral', serif;
+  font-size: 19px;
+  background-color: #1a1a1a;
+  background-image: url('../images/parchment-dark.jpg');
+  color: #f0e7dc;
+  line-height: 1.75;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-family: 'Cinzel', serif;
+  color: #c75b5b;
+  text-shadow: 1px 1px #440000;
+  border-bottom: 1px solid #7a3a3a;
+  padding-bottom: 0.3em;
+  letter-spacing: 1px;
+}
+
+.content {
+  max-width: 960px;
+  margin: 3em auto;
+  padding: 2em;
+  background: rgba(20, 20, 20, 0.9);
+  border: 2px solid #a03b3b;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(100,0,0,0.4);
+}
+
+a {
+  color: #dd6666;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #f28585;
+}
+
+.collapsible h2 {
+  background: #3a1c1c;
+  color: #f5dada;
+  padding: 0.6em;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1.25em;
+}
+
+.collapsible .content {
+  padding: 1em;
+  background: #2a1a1a;
+  border: 1px solid #773636;
+  margin-bottom: 1em;
+  display: none;
+}
+
+.collapsible.open .content {
+  display: block;
+}
+
+.stat-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant: small-caps;
+  font-weight: bold;
+  background-color: #3a1c1c;
+  border: 2px solid #c87c7c;
+  color: #f5e3e3;
+}
+
+.stat-table th, .stat-table td {
+  border: 1px solid #8c4848;
+  padding: 0.4em 0.6em;
+  text-align: center;
+}
+
+.collapsible h2::before {
+  content: '☠️';
+  margin-right: 0.5em;
+  font-size: 1.1em;
+}
+
+.collapsible h2 {
+  background: linear-gradient(to right, #3a1c1c, #1c0d0d);
+  color: #f3cccc;
+  border: 1px solid #7a3a3a;
+  box-shadow: inset 0 0 6px #2a0000;
+  border-radius: 8px;
+}

@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Cinzel:wght@700&display=swap');
+
+body {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  background: #f4efe6 url('../images/parchment-background.jpg') repeat;
+  color: #2e1f1a;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Cinzel', serif;
+  color: #4a2f24;
+  text-shadow: 1px 1px #e0d4bd;
+  margin-top: 1.5em;
+  border-bottom: 1px solid #c8b596;
+  padding-bottom: 0.3em;
+}
+
+.content {
+  max-width: 960px;
+  margin: 2em auto;
+  padding: 2em;
+  background: rgba(255, 248, 235, 0.95);
+  border: 2px solid #ccb292;
+  border-radius: 10px;
+  box-shadow: 0 0 18px rgba(0,0,0,0.1);
+}
+
+img {
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+ul {
+  padding-left: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+a {
+  color: #8b4a28;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #c7642f;
+}
+
+.collapsible h2 {
+  cursor: pointer;
+  user-select: none;
+  background-color: #e7dbc6;
+  padding: 0.6em;
+  margin: 0;
+  font-size: 1.25em;
+  border: 1px solid #c2a786;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.collapsible .content {
+  padding: 1em;
+  border: 1px solid #c2a786;
+  border-top: none;
+  margin-bottom: 1em;
+  display: none;
+  background-color: #fdf8f1;
+}
+
+.collapsible.open .content {
+  display: block;
+}
+
+.portrait {
+  display: block;
+  margin: 0 auto 0.5em auto;
+  width: 716px;
+  max-height: 1075px;
+  border: 4px solid #ccb292;
+  border-radius: 10px;
+  padding: 0.5em;
+  background-color: #fdf8f1;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.portrait-caption {
+  text-align: center;
+  font-style: italic;
+  font-size: 1em;
+  color: #5a3222;
+  margin-bottom: 1.5em;
+}
+
+
+.stat-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5em;
+  font-variant: small-caps;
+  font-weight: bold;
+  background-color: #fdfaf3;
+  border: 2px solid #c8b596;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.stat-table th,
+.stat-table td {
+  text-align: center;
+  padding: 0.4em 0.6em;
+  border: 1px solid #d8c8aa;
+  font-size: 1.1em;
+}
+
+.stat-table th {
+  background-color: #e8dcc4;
+  color: #3b2c20;
+}

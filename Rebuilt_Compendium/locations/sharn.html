@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sharn - City of Towers</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <style>
+    body { font-family: EB Garamond; }
+    h1, h2 { font-family: Cinzel; }
+    .tab-bar {
+      margin-bottom: 1em;
+    }
+    .tablink {
+      padding: 0.5em 1em;
+      margin-right: 0.5em;
+      cursor: pointer;
+      border: 1px solid #aaa;
+      background-color: #f0f0f0;
+    }
+    .tablink.active {
+      background-color: #ccc;
+      font-weight: bold;
+    }
+    .tabcontent {
+      display: none;
+      border-top: 1px solid #ccc;
+      padding-top: 1em;
+    }
+    .tabcontent.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Sharn – The City of Towers</h1>
+    <div class="tab-bar">
+      <button class="tablink active" onclick="openEra(event, 'monsters')">Age of Monsters</button>
+      <button class="tablink" onclick="openEra(event, 'mark')">War of the Mark</button>
+      <button class="tablink" onclick="openEra(event, 'modern')">Modern Era</button>
+    </div>
+
+    <div id="monsters" class="tabcontent active">
+      <h2>Age of Monsters</h2>
+      <p>During the Dhakaani Empire, the area where Sharn now stands was a goblinoid stronghold known as Ja'shaarat. Towering stone keeps and underground passages dominated the landscape. No humans had yet colonized the region.</p>
+    </div>
+
+    <div id="mark" class="tabcontent">
+      <h2>War of the Mark</h2>
+      <p>In this era, Sharn was a growing city, still reeling from the aftermath of the War of the Mark. Many aberrant-marked refugees hid in the city's depths. The foundations of the upper towers were being laid by Cannith masons and Orien architects.</p>
+    </div>
+
+    <div id="modern" class="tabcontent">
+      <h2>Modern Era</h2>
+      <p>Today, Sharn stands as the largest city in Khorvaire, a vertical metropolis of magic, intrigue, and industry. Airships dock above while criminal empires thrive below. The scars of the Last War are still fresh in its districts.</p>
+    </div>
+  </div>
+
+  <script>
+    function openEra(evt, eraId) {
+      const contents = document.getElementsByClassName("tabcontent");
+      const tabs = document.getElementsByClassName("tablink");
+
+      for (let i = 0; i < contents.length; i++) {
+        contents[i].classList.remove("active");
+      }
+      for (let i = 0; i < tabs.length; i++) {
+        tabs[i].classList.remove("active");
+      }
+
+      document.getElementById(eraId).classList.add("active");
+      evt.currentTarget.classList.add("active");
+    }
+  </script>
+</body>
+</html>
